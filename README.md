@@ -14,7 +14,7 @@ Install <a href="https://docs.docker.com/get-docker">Docker Desktop</a> for Mac,
 docker compose up -d
 ```
 
-Open <a href="http://localhost:8888">http://localhost:8888</a> with your browser to see the result<>
+Open <a href="http://localhost:8888">http://localhost:8888</a> with your browser to see the result<br />
 
 Default credentials
 ```
