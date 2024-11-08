@@ -1,4 +1,6 @@
 <h1 align="center"> HyperDeck 4.0 in Docker </h1>
+<h4 align="center">Deck control is developed and written by <a href="iamjeffamato.com" target="_blank">Jeff Amato</a><br>
+The Hyperdeck is a registered trademark of Blackmagic Design Pty Ltd</h4>
 
 <p align="center">
 <a href="https://www.php.net/releases/7_4_29.php"><img alt="Static Badge" src="https://img.shields.io/badge/PHP-7.4.24-blue?style=flat-square&logo=php&logoSize=auto"></a>
@@ -6,13 +8,30 @@
 <a href="https://www.docker.com"><img alt="Static Badge" src="https://img.shields.io/badge/Docker-27-blue?style=flat-square&logo=docker&logoSize=auto"></a>
 </p>
 
+<p align="center">
+	<img src="panel/images/deckpanel.png"></img>
+</p>
+
+:star: Star us on GitHub - it helps!
 
 ## Prerequisites
 Install <a href="https://docs.docker.com/get-docker">Docker Desktop</a> for Mac, Windows, or Linux. Docker Desktop includes Docker Compose as part of the intallation.
 
-## Development
+ 
+- Deck control developed and written by Jeff Amato - iamjeffamato.com @iamjeffamato
+        //Hyperdeck is a registered trademark of Blackmagic Design Pty Ltd
+        //Configuration and use notes can be found at hyperdeck.iamjeffamato.com
 
+##Clone and Use 
+
+```bash
+git clone https://github.com/MauricioMC28/hyperdeck-panel.git
 ```
+This will clone the whole repository in your system.
+- Now the project is ready to use
+Open a terminal and place to the repository directory and launch the Deck by running the following Docker command:
+
+```bash
 docker compose up -d
 ```
 
