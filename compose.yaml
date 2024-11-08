@@ -4,8 +4,4 @@ services:
       context: ./
     ports:
       - 8888:80
-    develop:
-      watch:
-        - path: ./panel
-          action: sync
-          target: /var/www/html
+
