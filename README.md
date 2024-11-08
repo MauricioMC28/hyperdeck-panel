@@ -1,4 +1,4 @@
-<h1 align="center"> Hyperdeck panel version 4.0 in Docker </h1>
+<h1 align="center"> HyperDeck 4.0 in Docker </h1>
 
 <p align="center">
 <a href="https://www.php.net/releases/7_4_29.php"><img alt="Static Badge" src="https://img.shields.io/badge/PHP-7.4.24-blue?style=flat-square&logo=php&logoSize=auto"></a>
