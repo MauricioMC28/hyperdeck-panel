@@ -1,19 +1,15 @@
-### Building and running your application
+# Hyperdeck panel version 4.0 in Docker
 
-When you're ready, start your application by running:
-`docker compose up --build`.
+## Technologies
+![Docker](https://img.shields.io/badge/-Docker-333333?style=flat&logo=docker)
+![PHP7](https://img.shields.io/badge/-Php-333333?style=flat&logo=php)
 
-Your application will be available at http://localhost:8888.
+## Prerequisites
+Install <a href="https://docs.docker.com/get-docker">Docker Desktop</a> for Mac, Windows, or Linux. Docker Desktop includes Docker Compose as part of the intallation.
 
-### Deploying your application to the cloud
+## Development
 
-First, build your image, e.g.: `docker build -t myapp .`.
-If your cloud uses a different CPU architecture than your development
-machine (e.g., you are on a Mac M1 and your cloud provider is amd64),
-you'll want to build the image for that platform, e.g.:
-`docker build --platform=linux/amd64 -t myapp .`.
-
-Then, push it to your registry, e.g. `docker push myregistry.com/myapp`.
-
-Consult Docker's [getting started](https://docs.docker.com/go/get-started-sharing/)
-docs for more detail on building and pushing.
+```
+# Up prod
+docker compose up -d
+```
