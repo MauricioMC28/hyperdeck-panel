@@ -25,7 +25,7 @@
 		<meta name="viewport" content="width=1200, user-scalable=0">
 		<meta name="apple-mobile-web-app-status-bar-style" content="default">
 		<link rel="apple-touch-icon" href="images/hdcpIcon.png">
-		<title>HyperDeck Utility Panel</title>
+		<title>Vislink - HyperDeck Utility Panel</title>
 		<link rel="stylesheet" type="text/css" href="css/default.css" media="screen" />
 		<link rel="icon" type="image/png" href="images/hdcpIcon.png">
 		<link rel="stylesheet" href="assets/css/font-awesome.min.css">

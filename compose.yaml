@@ -1,9 +1,11 @@
-# Here the instructions define your application as a service called "server".
-# This service is built from the Dockerfile in the current directory.
-
 services:
-  server:
+  hyperdeck:
     build:
-      context: .
+      context: ./
     ports:
-      - 8080:80
+      - 8888:80
+    develop:
+      watch:
+        - path: ./panel
+          action: sync
+          target: /var/www/html

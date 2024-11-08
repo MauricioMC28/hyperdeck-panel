@@ -25,7 +25,7 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="default">
             <link rel="apple-touch-icon" href="images/hdcpIcon.png">
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
-<title>HyperDeck Control Panel</title>
+<title>Vislink - HyperDeck Sign in</title>
 <link rel="stylesheet" type="text/css" href="css/default.css" media="screen" />
 <link rel="icon" type="image/png" href="images/hdcpIcon.png">
 </head>
@@ -33,16 +33,18 @@
 <body>
 <form action="" method="post">
 <div class="login_box">
-    
-    <h2>HyperDeck Control Panel</h2><br>
-    
+
+    <img src="images/hdcpIcon.png" width="100" height="100" style="vertical-align:middle;margin:0px 65px">
+    <h2 style="margin-top: 0px;margin-bottom: 25px">HyperDeck</h2>
+
     <span class="login_text">Username</span><br />
     <input name="username" type="text" class="login_input<?php if($showerror == "yes"){print " errorborder";} ?>" /><br />
     <span class="login_text">Password</span><br />
     <input name="password" type="password" class="login_input<?php if($showerror == "yes"){print " errorborder";} ?>" /><br /><br />
-	<div align="right"><input class="submit" name="login" type="submit" value="Login" /></div>
+	<div align="right"><input class="submit" name="login" type="submit" value="Log in" /></div>
         
          <?php $login->error_login(); ?>
+</div>
 </div>
 </form>
 </body>
