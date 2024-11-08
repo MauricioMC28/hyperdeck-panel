@@ -18,8 +18,8 @@ The Hyperdeck is a registered trademark of Blackmagic Design Pty Ltd</h4>
 Install <a href="https://docs.docker.com/get-docker">Docker Desktop</a> for Mac, Windows, or Linux. Docker Desktop includes Docker Compose as part of the intallation.
 
 
-##Clone and Use 
-
+## Clone and Use 
+Clone the repository into your local system using below command:
 
 ```bash
 git clone https://github.com/MauricioMC28/hyperdeck-panel.git
