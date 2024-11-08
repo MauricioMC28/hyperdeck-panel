@@ -1,5 +1,5 @@
 <h1 align="center"> HyperDeck 4.0 in Docker </h1>
-<h4 align="center">Deck control is developed and written by <a href="iamjeffamato.com" target="_blank">Jeff Amato</a><br>
+<h4 align="center">Deck control is developed and written by <a href="https://iamjeffamato.com">Jeff Amato</a><br>
 The Hyperdeck is a registered trademark of Blackmagic Design Pty Ltd</h4>
 
 <p align="center">
@@ -12,15 +12,11 @@ The Hyperdeck is a registered trademark of Blackmagic Design Pty Ltd</h4>
 	<img src="panel/images/deckpanel.png"></img>
 </p>
 
-:star: Star us on GitHub - it helps!
+:star: Star me on GitHub - it helps!
 
 ## Prerequisites
 Install <a href="https://docs.docker.com/get-docker">Docker Desktop</a> for Mac, Windows, or Linux. Docker Desktop includes Docker Compose as part of the intallation.
 
- 
-- Deck control developed and written by Jeff Amato - iamjeffamato.com @iamjeffamato
-        //Hyperdeck is a registered trademark of Blackmagic Design Pty Ltd
-        //Configuration and use notes can be found at hyperdeck.iamjeffamato.com
 
 ##Clone and Use 
 
