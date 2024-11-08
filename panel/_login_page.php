@@ -25,7 +25,7 @@
         <meta name="apple-mobile-web-app-status-bar-style" content="default">
             <link rel="apple-touch-icon" href="images/hdcpIcon.png">
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2" />
-<title>Vislink - HyperDeck Sign in</title>
+<title>HyperDeck Sign in</title>
 <link rel="stylesheet" type="text/css" href="css/default.css" media="screen" />
 <link rel="icon" type="image/png" href="images/hdcpIcon.png">
 </head>
