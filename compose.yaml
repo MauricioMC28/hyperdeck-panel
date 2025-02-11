@@ -2,6 +2,8 @@ services:
   hyperdeck:
     build:
       context: ./
+    image: hyperdeck
+    container_name: hyperdeck_panel
     ports:
       - 8888:80
 
